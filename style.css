@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    flex: auto;
+    justify-content: space-between;
+    background-color: #1F2937;
+}
+
+#head-img {
+    width: 48px;
+    height: 48px;
+    padding-left: 240px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: #F9FAF8;
+}
+
+.head-links {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-right: 240px;
+    gap: 48px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.head-links a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+ul {
+    list-style-type: none;
+}
+
