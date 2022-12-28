@@ -108,6 +108,7 @@ ul {
     text-align: center;
     padding-top: 45px;
     font-family: sans-serif;
+    background-color: #F9FAF8;
     color: #1F2937;
     font-weight: bolder;
     font-size: 36px;
@@ -166,3 +167,52 @@ ul {
     font-weight: bold;
     color: #1F2937;
 }
+
+.modal-card {
+    display: flex;
+    justify-content: center;
+    background-color: #F9FAF8;
+    padding-top: 90px;
+    padding-bottom: 90px;   
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.modal-card .modal-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 45px;
+    padding-top: 45px;
+    max-width: 1000px;
+    gap: 156px;
+    font-family: sans-serif;
+}
+
+.modal-card .modal-container .modal-card-left #modal-header {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.modal-card .modal-container .modal-card-left #modal-para {
+    font-size: 18px;
+    color: #E5E7EB;
+    flex-wrap: wrap;
+}
+
+.modal-card .modal-container .modal-card-right #modal-button {
+    background-color: #3882F6;
+    font-size: 14px;
+    height: 30px;
+    width: 140px;
+    font-weight: bold;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
+}
+
